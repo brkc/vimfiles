@@ -1,0 +1,3 @@
+[submodule "bundle/gentooish.vim"]
+	path = bundle/gentooish.vim
+	url = https://github.com/briancarper/gentooish.vim
