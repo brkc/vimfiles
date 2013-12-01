@@ -36,7 +36,7 @@ set bg=dark "background
 if has('win32')
   set gfn=consolas:h10 "guifont
 else
-  set gfn=clean\ 10 "guifont
+  set gfn=DejaVu\ Sans\ Mono\ 18 "guifont
 endif
 set go=ac "guioptions
 if has('gui') || !has('win32')
