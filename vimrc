@@ -34,7 +34,7 @@ set noswf "noswapfile
 syntax on
 set bg=dark "background
 if has('win32')
-  set gfn=consolas:h10 "guifont
+  set gfn=terminal:h6 "guifont
 else
   set gfn=DejaVu\ Sans\ Mono\ 18 "guifont
 endif
