@@ -40,7 +40,7 @@ else
 endif
 set go=ac "guioptions
 if has('gui') || !has('win32')
-  colo gentooish "colorscheme
+  colo gruvbox "colorscheme
 else
   colo elflord "colorscheme
 endif
