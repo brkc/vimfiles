@@ -31,16 +31,12 @@ set noswf "noswapfile
 
 "syntax colors
 "set t_Co=256 "t_Co
+colo gruvbox "colorscheme
 syntax on
 set bg=dark "background
-if has('win32')
-  set gfn=terminal:h6 "guifont
-else
-  set gfn=DejaVu\ Sans\ Mono\ 18 "guifont
-endif
 set go=ac "guioptions
-if has('gui') || !has('win32')
-  colo gruvbox "colorscheme
+if has('win32')
+  set gfn=Consolas:h12 "guifont
 else
-  colo elflord "colorscheme
+  set gfn=DejaVu\ Sans\ Mono\ 12 "guifont
 endif
