@@ -1,4 +1,6 @@
-execute pathogen#infect()
+call plug#begin()
+Plug 'morhetz/gruvbox'
+call plug#end()
 
 "not necessary
 "set nocp "nocompatible
