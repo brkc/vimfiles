@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
+Plug 'hashivim/vim-terraform'
 call plug#end()
 
 "not necessary
